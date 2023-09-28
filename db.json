@@ -1,0 +1,50 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "name": "Client 1"
+    },
+    {
+      "id": 2,
+      "name": "Client 2"
+    },
+    {
+      "id": 3,
+      "name": "Client 3"
+    }
+  ],
+  "reports": [
+    {
+      "id": 1,
+      "clientId": 1,
+      "title": "Report 1"
+    },
+    {
+      "id": 2,
+      "clientId": 1,
+      "title": "Report 2"
+    },
+    {
+      "id": 3,
+      "clientId": 2,
+      "title": "Report 3"
+    }
+  ],
+  "dataItems": [
+    {
+      "id": 1,
+      "reportId": 1,
+      "data": "Data 1"
+    },
+    {
+      "id": 2,
+      "reportId": 1,
+      "data": "Data 2"
+    },
+    {
+      "id": 3,
+      "reportId": 2,
+      "data": "Data 3"
+    }
+  ]
+}
