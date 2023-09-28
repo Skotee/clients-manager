@@ -25,6 +25,7 @@
   "homepage": "https://github.com/emre-cil/vite-mui-ts#readme",
   "scripts": {
     "dev": "vite --open",
+    "db": "json-server --watch db.json --port 3001",
     "start": "vite --open",
     "host": "vite --open --host",
     "build": "tsc && vite build",
